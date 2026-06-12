@@ -16,42 +16,112 @@
 
 <a class="skip-link" href="#main-content">Skip to main content</a>
 
-<header role="banner">
-    <h1>Inbavalli</h1>
-    <p>ECE Student | Aspiring Web Developer</p>
+<header class="site-header" role="banner">
+
+    <div class="header-content">
+
+        <div>
+            <h1>Inbavalli</h1>
+            <p>ECE Student | Aspiring Web Developer</p>
+        </div>
+
+        <button
+            id="theme-toggle"
+            class="theme-btn"
+            aria-label="Toggle dark mode">
+            🌙
+        </button>
+
+    </div>
+
 </header>
 
 <nav role="navigation" aria-label="Primary Navigation">
-    <ul>
+
+    <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html" aria-current="page">About</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="contact.html">Contact</a></li>
     </ul>
+
 </nav>
 
 <main role="main" id="main-content">
 
-<section>
-    <h2>About Me</h2>
-    <p>I am a third-year ECE student with interest in web development and UI design.</p>
-</section>
+    <section class="about-section">
 
-<section>
-    <h2>Education</h2>
-    <p>B.E. Electronics and Communication Engineering</p>
-</section>
+        <h2>About Me</h2>
 
-<section>
-    <h2>Goals</h2>
-    <p>To become a full-stack web developer.</p>
-</section>
+        <div class="about-grid">
+
+            <article class="about-card">
+
+                <h3>Who I Am</h3>
+
+                <p>
+                    I am a third-year Electronics and Communication
+                    Engineering student with a strong interest in
+                    web development, user interface design,
+                    and modern web technologies.
+                </p>
+
+            </article>
+
+            <article class="about-card">
+
+                <h3>Education</h3>
+
+                <p>
+                    Bachelor of Engineering in Electronics and
+                    Communication Engineering.
+                </p>
+
+                <p>
+                    Continuously improving my skills through
+                    projects, certifications, and practical learning.
+                </p>
+
+            </article>
+
+            <article class="about-card">
+
+                <h3>Technical Skills</h3>
+
+                <p>
+                    HTML5, CSS3, JavaScript,
+                    Responsive Web Design,
+                    Git, GitHub, and UI Design Principles.
+                </p>
+
+            </article>
+
+            <article class="about-card">
+
+                <h3>Career Goals</h3>
+
+                <p>
+                    My goal is to become a skilled full-stack
+                    web developer capable of building
+                    responsive, accessible, and user-friendly
+                    web applications.
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
 
 </main>
 
 <footer role="contentinfo">
-    <p>&copy; 2026 Inbavalli</p>
+
+    <p>&copy; 2026 Inbavalli. All Rights Reserved.</p>
+
 </footer>
+
+<script src="js/script.js"></script>
 
 </body>
 </html>
