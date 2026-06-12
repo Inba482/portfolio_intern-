@@ -16,47 +16,91 @@
 
 <a class="skip-link" href="#main-content">Skip to main content</a>
 
-<header role="banner">
-    <h1>Inbavalli</h1>
-    <p>ECE Student | Aspiring Web Developer</p>
+<header class="site-header" role="banner">
+
+    <div class="header-content">
+
+        <div>
+            <h1>Inbavalli</h1>
+            <p>ECE Student | Aspiring Web Developer</p>
+        </div>
+
+        <button
+            id="theme-toggle"
+            class="theme-btn"
+            aria-label="Toggle dark mode">
+            🌙
+        </button>
+
+    </div>
+
 </header>
 
 <nav role="navigation" aria-label="Primary Navigation">
-    <ul>
+
+    <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="contact.html" aria-current="page">Contact</a></li>
     </ul>
+
 </nav>
 
 <main role="main" id="main-content">
 
-<section>
-    <h2>Contact Me</h2>
+    <section class="contact-section">
 
-    <form>
+        <h2>Contact Me</h2>
 
-        <label for="name">Full Name</label>
-        <input id="name" type="text" required>
+        <div class="contact-card">
 
-        <label for="email">Email</label>
-        <input id="email" type="email" required>
+            <form class="contact-form">
 
-        <label for="message">Message</label>
-        <textarea id="message" required></textarea>
+                <label for="name">Full Name</label>
 
-        <button type="submit">Send Message</button>
+                <input
+                    id="name"
+                    type="text"
+                    name="name"
+                    required>
 
-    </form>
+                <label for="email">Email Address</label>
 
-</section>
+                <input
+                    id="email"
+                    type="email"
+                    name="email"
+                    required>
+
+                <label for="message">Message</label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    required></textarea>
+
+                <button
+                    type="submit"
+                    class="btn">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
 
 </main>
 
 <footer role="contentinfo">
-    <p>&copy; 2026 Inbavalli</p>
+
+    <p>&copy; 2026 Inbavalli. All Rights Reserved.</p>
+
 </footer>
+
+<script src="js/script.js"></script>
 
 </body>
 </html>
