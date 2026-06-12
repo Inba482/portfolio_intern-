@@ -16,47 +16,130 @@
 
 <a class="skip-link" href="#main-content">Skip to main content</a>
 
-<header role="banner">
-    <h1>Inbavalli</h1>
-    <p>ECE Student | Aspiring Web Developer</p>
+<header class="site-header" role="banner">
+
+    <div class="header-content">
+
+        <div>
+            <h1>Inbavalli</h1>
+            <p>ECE Student | Aspiring Web Developer</p>
+        </div>
+
+        <button
+            id="theme-toggle"
+            class="theme-btn"
+            aria-label="Toggle dark mode">
+            🌙
+        </button>
+
+    </div>
+
 </header>
 
 <nav role="navigation" aria-label="Primary Navigation">
-    <ul>
+
+    <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="projects.html" aria-current="page">Projects</a></li>
         <li><a href="contact.html">Contact</a></li>
     </ul>
+
 </nav>
 
 <main role="main" id="main-content">
 
-<section>
-    <h2>My Projects</h2>
+    <section class="projects-section">
 
-    <article>
-        <h3>Portfolio Website</h3>
-        <p>Responsive portfolio built using HTML, CSS, JS.</p>
-    </article>
+        <h2>My Projects</h2>
 
-    <article>
-        <h3>Weather App</h3>
-        <p>Displays live weather data using API.</p>
-    </article>
+        <div class="projects-grid">
 
-    <article>
-        <h3>Student Management System</h3>
-        <p>Manages student records efficiently.</p>
-    </article>
+            <article class="project-card">
 
-</section>
+                <h3>Portfolio Website</h3>
+
+                <p>
+                    A responsive personal portfolio website built
+                    using HTML5, CSS3, and JavaScript with
+                    accessibility and responsive design principles.
+                </p>
+
+            </article>
+
+            <article class="project-card">
+
+                <h3>Weather App</h3>
+
+                <p>
+                    A weather application that retrieves
+                    real-time weather information from an API
+                    and displays current conditions.
+                </p>
+
+            </article>
+
+            <article class="project-card">
+
+                <h3>Student Management System</h3>
+
+                <p>
+                    A web-based project for managing
+                    student records, attendance, and
+                    academic information efficiently.
+                </p>
+
+            </article>
+
+            <article class="project-card">
+
+                <h3>Landing Page Design</h3>
+
+                <p>
+                    A modern responsive landing page
+                    designed using Flexbox, Grid,
+                    and mobile-first principles.
+                </p>
+
+            </article>
+
+            <article class="project-card">
+
+                <h3>JavaScript Calculator</h3>
+
+                <p>
+                    A simple calculator application
+                    capable of performing basic
+                    arithmetic operations.
+                </p>
+
+            </article>
+
+            <article class="project-card">
+
+                <h3>GitHub Portfolio Repository</h3>
+
+                <p>
+                    A collection of personal projects
+                    and coding exercises maintained
+                    using Git and GitHub.
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
 
 </main>
 
 <footer role="contentinfo">
-    <p>&copy; 2026 Inbavalli</p>
+
+    <p>&copy; 2026 Inbavalli. All Rights Reserved.</p>
+
 </footer>
+
+<script src="js/script.js"></script>
 
 </body>
 </html>
